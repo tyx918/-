@@ -1,0 +1,71 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tan Microsoft, Microsoft, LIC=P6FUH-WXQAU-LTU3E-5N7KI-3XTR8-LCUFS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\bishe_pulse\Âö²«³ÌÐò\STM32\STM32F429Ö÷°å\Project\RVMDK£¨uv5£©\BH-F429.uvprojx
+Project File Date:  07/23/2020
+
+<h2>Output:</h2>
+Build target 'USART'
+compiling main.c...
+..\..\User\./spi/bsp_spi_dma.h(11): warning:  #1295-D: Deprecated declaration spi_ad_dma_config - give arg types
+  void spi_ad_dma_config();    
+..\..\User\./spi/bsp_spi_dma.h(12): warning:  #1295-D: Deprecated declaration spi_wifi_dma_config - give arg types
+  void spi_wifi_dma_config();
+..\..\User\./spi/bsp_spi_dma.h(13): warning:  #1295-D: Deprecated declaration DMA_Write_buf - give arg types
+  void  DMA_Write_buf();
+..\..\User\main.c(61): warning:  #1295-D: Deprecated declaration spiTransmit - give arg types
+  void spiTransmit();
+..\..\User\main.c(149): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+                                                sendADCmd(WIFI_RX_Buff,16); //·¢ËÍADCÖ¸Áî
+..\..\User\main.c(143): warning:  #177-D: variable "i" was declared but never referenced
+                                        int i=0;
+..\..\User\main.c(74): warning:  #177-D: variable "i" was declared but never referenced
+        int i=0;
+..\..\User\main.c(75): warning:  #177-D: variable "j" was declared but never referenced
+        int j=0;
+..\..\User\main.c(259): warning:  #223-D: function "memset" declared implicitly
+                memset(header+16,0,1008);
+..\..\User\main.c(213): warning:  #177-D: variable "j" was declared but never referenced
+                uint16_t i=0,j = 0;     
+..\..\User\main.c(383): warning:  #177-D: variable "i" was declared but never referenced
+                int i =0;
+..\..\User\main.c(395): warning:  #177-D: variable "i" was declared but never referenced
+                int i =0;
+..\..\User\main.c(408): warning:  #177-D: variable "i" was declared but never referenced
+                int i =0;
+..\..\User\main.c(441): warning:  #223-D: function "memcpy" declared implicitly
+                        memcpy(AD_TX_Buff,cmd,size);            
+..\..\User\main.c: 14 warnings, 0 errors
+linking...
+Program Size: Code=20416 RO-data=176856 RW-data=76 ZI-data=44460  
+FromELF: creating hex file...
+"..\..\Output\USART.axf" - 0 Error(s), 14 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\bishe_pulse\Âö²«³ÌÐò\STM32\STM32F429Ö÷°å\Project\RVMDK£¨uv5£©\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>

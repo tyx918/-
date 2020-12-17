@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: tan Microsoft, Microsoft, LIC=P6FUH-WXQAU-LTU3E-5N7KI-3XTR8-LCUFS
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.13.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\bishe_pulse\脉搏程序\STM32\STM32F429采集板\Project\RVMDK（uv5）\BH-F429.uvprojx
+Project File Date:  08/31/2020
+
+<h2>Output:</h2>
+Build target 'ADC-多通道-DMA'
+compiling main.c...
+..\..\User\./spi/bsp_spi_dma.h(9): warning:  #1295-D: Deprecated declaration spi_dma_config - give arg types
+  void spi_dma_config();                          
+..\..\User\./spi/bsp_spi_dma.h(10): warning:  #1295-D: Deprecated declaration DMA_Write_buf - give arg types
+  void  DMA_Write_buf();
+..\..\User\./spi/bsp_spi_dma.h(11): warning:  #1295-D: Deprecated declaration SPI_DMA_WRITE_READ_BUFF - give arg types
+  void SPI_DMA_WRITE_READ_BUFF();
+..\..\User\main.c(139): warning:  #223-D: function "memcpy" declared implicitly
+                                memcpy(TX_Buff,ADCValue2,BuffSize);
+..\..\User\main.c(145): warning:  #223-D: function "memcpy" declared implicitly
+                                memcpy(TX_Buff,ADCValue1,BuffSize);
+..\..\User\main.c(36): warning:  #177-D: function "Delay" was declared but never referenced
+  static void Delay(__IO uint32_t nCount)        //简单的延时函数
+..\..\User\main.c: 6 warnings, 0 errors
+compiling bsp_adc.c...
+..\..\User\adc\bsp_adc.c(109): warning:  #550-D: variable "ADC_CommonInitStructure" was set but never used
+    ADC_CommonInitTypeDef ADC_CommonInitStructure;
+..\..\User\adc\bsp_adc.c: 1 warning, 0 errors
+compiling bsp_spi_dma.c...
+..\..\User\./spi/bsp_spi_dma.h(9): warning:  #1295-D: Deprecated declaration spi_dma_config - give arg types
+  void spi_dma_config();                          
+..\..\User\./spi/bsp_spi_dma.h(10): warning:  #1295-D: Deprecated declaration DMA_Write_buf - give arg types
+  void  DMA_Write_buf();
+..\..\User\./spi/bsp_spi_dma.h(11): warning:  #1295-D: Deprecated declaration SPI_DMA_WRITE_READ_BUFF - give arg types
+  void SPI_DMA_WRITE_READ_BUFF();
+..\..\User\spi\bsp_spi_dma.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=7748 RO-data=464 RW-data=24 ZI-data=66560  
+FromELF: creating hex file...
+"..\..\Output\ADC-多通道-DMA.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\bishe_pulse\脉搏程序\STM32\STM32F429采集板\Project\RVMDK（uv5）\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
